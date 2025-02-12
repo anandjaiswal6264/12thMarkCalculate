@@ -1,0 +1,107 @@
+package aj;
+import java.util.Scanner;
+public class persentage12marks {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		float phy , chem ,math , bio , marathi, hindi, total ;
+		System.out.println("Calculate the 12 th mark (HSC) ");
+		float  persenttage ;
+		
+		System.out.println("Enter the physics mark"  );
+		phy = sc.nextFloat();
+		
+		if(phy >= 34 ) {
+			System.out.println(" PASS"  );
+		}
+		else{
+			System.out.println("FAIL"  );
+		}
+			
+		
+		System.out.println("Enter the Cemestry mark"  );
+		chem = sc.nextFloat();
+		if(phy >= 34 ) {
+			System.out.println(" PASS"  );
+		}
+		else{
+			System.out.println("FAIL"  );
+		}
+			
+		
+		System.out.println("Enter the Mathamatics mark"  );
+		math = sc.nextFloat();
+		if(phy >= 34 ) {
+			System.out.println(" PASS"  );
+		}
+		else{
+			System.out.println("FAIL"  );
+		}
+			
+		
+		System.out.println("Enter the Biology mark"  );
+	    bio = sc.nextFloat();
+		if(phy >= 34 ) {
+			System.out.println(" PASS"  );
+		}
+		else{
+			System.out.println("FAIL"  );
+		}
+			
+		
+		System.out.println("Enter the marathi mark"  );
+		marathi = sc.nextFloat();
+		if(phy >= 34 ) {
+			System.out.println(" PASS"  );
+		}
+		else{
+			System.out.println("FAIL"  );
+		}
+			
+		
+		System.out.println("Enter the hindi mark"  );
+		hindi = sc.nextFloat();
+		if(phy >= 34 ) {
+			System.out.println(" FAIL"  );
+		}
+		else{
+			System.out.println("PASS"  );
+		}
+			
+		
+		total = phy + chem + math  +  marathi + hindi ;
+		System.out.println(" Total mark is----> " + total );
+
+		persenttage = total / 5 ;
+		
+		System.out.println("persenttage is--->" + persenttage);
+		System.out.println(" the pesentage class " );
+		
+		if( persenttage > 80) {
+			System.out.println(" A+ ");
+			
+			}
+		
+		else if( persenttage > 60) {
+			System.out.println(" A ");
+			System.out.println(" PASS ");
+		}
+		else if( persenttage > 45 ) {
+			System.out.println(" B+ ");
+			System.out.println(" PASS");
+			
+		}
+		else if( persenttage > 34 ) {
+			System.out.println(" B ");
+			System.out.println(" PASS");
+		}
+	
+	
+	
+		else if( persenttage > 0) {
+			System.out.println(" fail ");
+			
+		}
+
+}
+}
